@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wolverine.btp_vendor" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name="app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/main"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".registerInfo"
+            android:label="@string/title_activity_register_info" >
+        </activity>
+        <activity
+            android:name=".fertRegis"
+            android:label="@string/title_activity_fert_regis" >
+        </activity>
+        <activity
+            android:name=".pestRegis"
+            android:label="@string/title_activity_pest_regis" >
+        </activity>
+        <activity
+            android:name=".machRegis"
+            android:label="@string/title_activity_mach_regis" >
+        </activity>
+        <activity
+            android:name=".seedRegis"
+            android:label="@string/title_activity_seed_regis" >
+        </activity>
+        <activity
+            android:name=".fertRegis2"
+            android:label="@string/title_activity_fermar_regis2" >
+        </activity>
+        <activity
+            android:name=".machRegis2"
+            android:label="@string/title_activity_mach_regis2" >
+        </activity>
+        <activity
+            android:name=".pestRegis2"
+            android:label="@string/title_activity_pest_regis2" >
+        </activity>
+        <activity
+            android:name=".seedRegis2"
+            android:label="@string/title_activity_seed_regis2" >
+        </activity>
+    </application>
+
+</manifest>

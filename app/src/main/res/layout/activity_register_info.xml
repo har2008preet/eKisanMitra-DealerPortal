@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0099CC"
+    tools:context="com.wolverine.btp_vendor.registerInfo">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Choose your vending Catagory"
+        android:textSize="20sp"/>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_fertilizerStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Fertilizer"
+                android:background="#138b69" />
+            <Button
+                android:id="@+id/btn_machineryStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Machinery"
+                android:background="#138b69" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_pesticideStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text=" Pesticide "
+                android:background="#138b69"/>
+            <Button
+                android:id="@+id/btn_seedStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="      Seed       "
+                android:background="#138b69" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

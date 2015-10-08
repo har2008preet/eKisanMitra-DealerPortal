@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#FF0099CC"
+    tools:context="wolverine.example.com.btp_farmer.SplashScreen">
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#7bff34"
+        android:text="A Project From"/>
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_below="@id/firstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:textStyle="bold|italic"
+        android:text="ABV-IIITM"
+        android:textSize="40sp"
+        android:textColor="#784512"/>
+    <TextView
+        android:id="@+id/thirdLine"
+        android:layout_below="@id/secondLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:textStyle="bold|italic"
+        android:text="Gwalior"
+        android:textSize="40sp"
+        android:textColor="#784512"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_below="@id/thirdLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dealer"
+        android:layout_centerHorizontal="true"/>
+    <ProgressBar
+        android:id="@+id/pbar"
+        android:layout_below="@id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_below="@id/pbar"
+        android:text="Checking Internet Connection"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="#784512"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

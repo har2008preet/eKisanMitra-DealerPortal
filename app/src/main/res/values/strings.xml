@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Dealer Portal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register_info">registerInfo</string>
+    <string name="title_activity_fert_regis">fertRegis</string>
+    <string name="title_activity_pest_regis">pestRegis</string>
+    <string name="title_activity_mach_regis">machRegis</string>
+    <string name="title_activity_seed_regis">seedRegis</string>
+    <string-array name="dealerType">
+        <item>Retailer</item>
+        <item>WholeSaler</item>
+    </string-array>
+    <string-array name="states">
+        <item>Choose from here</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Chandigarh</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string name="title_activity_fermar_regis2">fermarRegis2</string>
+    <string name="title_activity_mach_regis2">machRegis2</string>
+    <string name="title_activity_pest_regis2">pestRegis2</string>
+    <string name="title_activity_seed_regis2">seedRegis2</string>
+</resources>
