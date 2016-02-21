@@ -1,5 +1,5 @@
 # eKisanMitra-DealerPortal
-This app is part of  e-kisanMitra and is for dealers. 
+This app is part of  **e-kisanMitra** and is for dealers. 
 They have to register themselves in their respective trade so that farmer,through their app, can find appropriate dealers.
 UI of the app is as follows:-
 ![image 1](http://i1377.photobucket.com/albums/ah42/har2008preet/1_zpsmos6stgd.png)
